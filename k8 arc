@@ -1,0 +1,22 @@
+in jenkins txt file
+
+code (123){
+int file1 ;
+main string }
+{{
+output :
+
+
+In Jenkins, building a project (also known as a "job" or "item") is an automated process that compiles code, runs tests, and performs other repetitive tasks related to the software delivery process. 
+You can build a project either manually or automatically via triggers, using project types like Freestyle or Pipeline. 
+Creating and Running a Project (Freestyle Example)
+The Freestyle project type is the most straightforward and is configured directly in the Jenkins UI. 
+1. Create a New Item:
+From the Jenkins Dashboard, select New Item.
+Enter a name for your project (avoid spaces, which can cause issues with scripts).
+Select Freestyle project, then click OK. 
+2. Configure the Project:
+Source Code Management (SCM): Under this section, select your repository type (e.g., Git). Enter the Repository URL and specify which branches to build.
+Build Triggers: Define how you want the build to start:
+Trigger builds remotely: Via a specific URL.
+Build after other projects are

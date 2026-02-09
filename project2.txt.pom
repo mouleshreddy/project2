@@ -1,0 +1,9 @@
+Printing Output: print("Hello, World!")
+Variables & Input:
+    name = input("What's your name?\n")
+    print(f"Hi, {name}.")
+Loops: for i in range(1, 101): print(i) to print numbers 1 to 100.
+Functions:
+ def greet(name):
+        return f"Hello, {name}!"
+    print(greet("Alice"))
